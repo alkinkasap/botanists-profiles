@@ -283,9 +283,9 @@
 									NumOfTimes="1" 
 									WaitTime="1000" />
 					
-					<!-- cast Serpent Sting -->				
+					<!-- cast Arcane Shot -->				
 					<CustomBehavior File="RunMacro" 
-									Macro="/cast Serpent Sting" 
+									Macro="/cast Arcane Shot" 
 									NumOfTimes="1" 
 									WaitTime="500" />
 					
@@ -313,9 +313,9 @@
 									NumOfTimes="1" 
 									WaitTime="1000" />
 					
-					<!-- cast Serpent Sting -->				
+					<!-- cast Arcane Shot -->				
 					<CustomBehavior File="RunMacro" 
-									Macro="/cast Serpent Sting" 
+									Macro="/cast Arcane Shot" 
 									NumOfTimes="1" 
 									WaitTime="500" />
 									

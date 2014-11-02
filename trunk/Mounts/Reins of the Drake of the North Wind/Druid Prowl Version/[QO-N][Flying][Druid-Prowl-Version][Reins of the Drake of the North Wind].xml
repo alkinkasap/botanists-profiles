@@ -849,8 +849,11 @@
 									NumOfTimes="1" 
 									WaitTime="1000" />
 					
-					<!-- Cast one of the following spells -->
-					<CustomBehavior File="Misc\RangeAttack" />
+					<!-- Custom behavior - RunMacro - cast Moonfire -->	
+					<CustomBehavior File="RunMacro" 
+									Macro="/cast Moonfire" 
+									NumOfTimes="1" 
+									WaitTime="3000"/>
 
 					<!-- Custom behavior - RunMacro - cleartarget -->	
 					<CustomBehavior File="RunMacro" 
@@ -858,43 +861,8 @@
 									NumOfTimes="1" 
 									WaitTime="0"/>
 					
-					<!-- If we are stealthed -->
-					<If Condition="Me.HasAura(&quot;Prowl&quot;)">	
-					
-						<!-- Profile message - We are stealthed -->
-						<CustomBehavior File="Message" 
-										Text="We are stealthed." 
-										LogColor="Orange" />
-					
-						<!-- Else if we are not stealthed -->
-						<Else>
-						
-							<!-- Profile message - We are not stealthed. Casting Prowl -->
-							<CustomBehavior File="Message" 
-											Text="We are not stealthed. Casting Prowl." 
-											LogColor="Plum" />
-										
-							<!-- Custom behavior - RunMacro - cast Prowl -->
-							<CustomBehavior File="RunMacro" 
-											Macro="/cast Prowl" />			
-										
-							<!-- Profile message - We are stealthed -->
-							<CustomBehavior File="Message" 
-											Text="We are stealthed." 
-											LogColor="Orange" />			
-										
-						</Else>		<!-- Else if we are not stealthed -->					
-						
-					</If>	<!-- If we are stealthed -->
-					
 					<!-- Move to - second Howling Gale -->				
-					<MoveTo X="-1061.07" Y="-48.62126" Z="700.4818" />
-					
-					<!-- Clear target -->				
-					<CustomBehavior File="RunMacro" 
-									Macro="/cleartarget" 
-									NumOfTimes="1" 
-									WaitTime="1000" />					
+					<MoveTo X="-1061.07" Y="-48.62126" Z="700.4818" />				
 									
 					<!-- Target the Howling Gale -->				
 					<CustomBehavior File="RunMacro" 
@@ -902,8 +870,11 @@
 									NumOfTimes="1" 
 									WaitTime="1000" />
 					
-					<!-- Cast one of the following spells -->
-					<CustomBehavior File="Misc\RangeAttack" />
+					<!-- Custom behavior - RunMacro - cast Moonfire -->	
+					<CustomBehavior File="RunMacro" 
+									Macro="/cast Moonfire" 
+									NumOfTimes="1" 
+									WaitTime="500"/>
 									
 					<!-- MoveTo to the top of the stairs -->				
 					<MoveTo X="-1107.029" Y="-2.914684" Z="704.7407" />
